@@ -27,29 +27,30 @@ Imbalanced-learn — балансировка классов
 Base_credit_scoring/
 │
 ├── Credit_scoring.ipynb      # Основной ноутбук с кодом
-├── data/                     # Папка с исходными данными
 ├── README.md                 # Описание проекта
 └── requirements.txt          # Список зависимостей
 
 ⚙ Установка и запуск
 
 Клонировать репозиторий  
+```
 git clone https://github.com/curiuwu/Base_credit_scoring.git
 cd Base_credit_scoring
+```
 
 
 Создать и активировать виртуальное окружение  
+```
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
+```
 
 
-Установить зависимости  
+Установить зависимости
+```  
 pip install -r requirements.txt
-
-
-Запустить Jupyter Notebook  
-jupyter notebook
+```
 
 
 
